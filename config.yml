@@ -1,0 +1,23 @@
+#######################################################
+##                                                   ##
+##                 ClearChat v1.3                    ##
+##                  by ImErkal_                      ##
+##                                                   ##
+#######################################################
+
+Prefix: '&8[&aCC&8]'
+#This message will appear in chat when a player does not have permission
+noperms: '&4You do not have permission to execute this command!'
+#This message will appear in chat when you use the command /clearchat
+clearchat-message: '&fChat has been cleared by &a%name%'
+#This message will appear in chat when you use the command /clearmychat
+clearmychat-message: '&eYou chat has been cleared!'
+#This message will appear in chat when the chat is automatically deleted
+autoclearchat-message: '&aThe chat was automatically cleaned'
+Line: 120
+
+autoclear:
+  Enabled: true
+  message: true 
+  interval: 40
+#20 ticks = 1 seconds.

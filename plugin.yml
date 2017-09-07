@@ -1,0 +1,24 @@
+name: ClearChat
+version: 1.3
+main: ro.imerkal.ClearChat.Main
+author: ImErkal_
+description: ClearChat plugin
+
+commands:
+    clearchat:
+        description: Clear chat for all players
+        aliases: [cc]
+    clearmychat:
+        description: Clear chat yourself
+        aliases: [cmc]
+        
+permissions:
+    clearchat.*:
+        description: permissions to all commands
+        default: op
+    clearchat.clearchat:
+        description: Permission command
+        default: op
+    clearmychat.clearmychat:
+        description: Permission command
+        default: op
